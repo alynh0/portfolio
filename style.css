@@ -3,6 +3,7 @@
   --cor-de-link: #000;
   --fonte-titulo: 1rem;
   --fonte-paragrafo: 0.875rem;
+  --fonte-subtitulo: 1.375rem;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
+  width: 100vw;
+  height: 100vh;
 }
 
 ol,
@@ -53,7 +56,28 @@ nav ul li:last-child {
 
 /*Sessão Title*/
 
-section.title {
+.title {
+  padding: 1rem;
+}
+
+.title__profile {
+  padding: 1rem;
+  width: 6.125rem;
+}
+
+.title__bio {
+  font-size: var(--fonte-subtitulo);
+}
+
+.title__subsection {
+  font-size: var(--fonte-paragrafo);
+  font-weight: 400;
+}
+
+.title__network {
+  display: flex;
+  gap: 8px;
+  font-weight: 600;
 }
 
 /*Sessão About*/
