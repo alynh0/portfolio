@@ -136,11 +136,39 @@ nav ul li:last-child {
   flex-direction: column;
   gap: 8px;
   padding: 2.375rem 1rem 1rem 1rem;
+  font-weight: 700;
 }
 
 /*Sessão Hobbies*/
 
-section.hobbies {
+.hobbies {
+  padding: 1rem;
+}
+
+.hobbies__title {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.hobbies__line {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hobbies__box {
+  height: 118px;
+  width: 40%;
+  background-color: #fff;
+}
+
+.hobbies__box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2.375rem 1rem 1rem 1rem;
+  font-weight: 700;
 }
 
 /* Experiência Acadêmica*/
