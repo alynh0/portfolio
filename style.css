@@ -173,7 +173,25 @@ nav ul li:last-child {
 
 /* Experiência Acadêmica*/
 
-section.academic {
+.academic {
+  background-color: var(--cor-do-sobre);
+  padding: 2rem;
+}
+
+.academic__title {
+  font-size: var(--fonte-subtitulo);
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1rem;
+  padding: 8px 0;
+}
+
+.academic__courses__item__subtitle {
+  font-size: var(--fonte-paragrafo);
+  font-weight: 500;
 }
 
 /* experiência*/
