@@ -73,6 +73,7 @@ nav ul li:last-child {
 
 .title__bio {
   font-size: var(--fonte-subtitulo);
+  line-height: 24px;
 }
 
 .title__subsection {
@@ -101,6 +102,40 @@ nav ul li:last-child {
 
 .about__paragraph {
   padding: 1rem 0;
+}
+
+/* Sessão Skills */
+
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.skills__title {
+  font-size: var(--fonte-subtitulo);
+  padding-bottom: 2rem;
+}
+
+.skills__line {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills__box {
+  height: 118px;
+  width: 40%;
+  background-color: #fff;
+}
+
+.skills__box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2.375rem 1rem 1rem 1rem;
 }
 
 /*Sessão Hobbies*/
