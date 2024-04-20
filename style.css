@@ -309,3 +309,67 @@ label {
   font-size: 1rem;
   padding: 32px 63px;
 }
+
+/* Media Queries */
+
+/* Tablets */
+@media (min-width: 768px) {
+  /* sessão title/hero */
+  .title__profile {
+    width: 9.125rem;
+    padding: 0 0 0 2rem;
+  }
+
+  .title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title__subsection {
+    font-size: 1rem;
+  }
+
+  .about__paragraph {
+    font-size: 1rem;
+  }
+
+  /* skills */
+  .skills__line {
+    width: 100%;
+  }
+
+  .skills__box {
+    /* 33.33% menos 20px de margin */
+    flex-basis: calc(33.33% - 20px);
+  }
+
+  /* hobbies */
+  .hobbies__box {
+    /* 33.33% menos 20px de margin */
+    flex-basis: calc(33.33% - 20px);
+  }
+
+  .academic__courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* experiencia  */
+  .experience__description {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .experience__button__demo,
+  .experience__button__repo {
+    width: 10rem;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+}
