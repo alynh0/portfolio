@@ -69,6 +69,7 @@ nav ul li:last-child {
 .title__profile {
   padding: 1rem;
   width: 6.125rem;
+  border-radius: 50%;
 }
 
 .title__bio {
@@ -137,6 +138,12 @@ nav ul li:last-child {
   gap: 8px;
   padding: 2.375rem 1rem 1rem 1rem;
   font-weight: 700;
+}
+
+#spring__icon,
+#controle__icon,
+.icone__pequeno {
+  height: 37px;
 }
 
 /* Sessão Hobbies */
@@ -413,6 +420,7 @@ label {
     font-size: var(--fonte-subtitulo);
     font-weight: 400;
     padding: 1.5rem 0;
+    line-height: 26px;
   }
 
   .title__profile {
@@ -439,7 +447,14 @@ label {
     padding: 2rem 152px;
   }
 
+  #spring__icon,
+  #controle__icon,
+  .icone__pequeno {
+    width: 37px;
+  }
+
   /* Definindo o tamanho dos subtitulos */
+  .about__title,
   .skills__title,
   .hobbies__title,
   .academic__title,
