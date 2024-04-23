@@ -485,6 +485,32 @@ label {
   }
 
   /* academic */
+  .academic__courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .academic__courses__box {
+    width: 368px;
+  }
+
+  .academic__courses__list {
+    gap: 2rem;
+  }
+
+  .academic__courses__item__img {
+    height: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .academic__courses__item__img img {
+    height: 130px;
+  }
+
   .academic__courses__item__title h4 {
     font-size: var(--fonte-subtitulo);
   }
