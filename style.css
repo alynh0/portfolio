@@ -346,6 +346,10 @@ label {
   border-radius: 4px;
 }
 
+.formcontato__botao:hover {
+  cursor: pointer;
+}
+
 /*footer*/
 
 .footer__rodape {
