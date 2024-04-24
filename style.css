@@ -191,6 +191,35 @@ nav ul li:last-child {
   text-align: center;
 }
 
+.academic__courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.academic__courses__box {
+  width: fit-content;
+}
+
+.academic__courses__list {
+  width: fit-content;
+  gap: 2rem;
+}
+
+.academic__courses__item__img {
+  height: 200px;
+  width: 296px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.academic__courses__item__img img {
+  height: 130px;
+}
+
 h4 {
   font-size: 1rem;
   padding: 8px 0;
@@ -235,6 +264,11 @@ h4 {
   padding: 12px 1rem;
   width: 40%;
   border-radius: 4px;
+}
+
+.experience__button__repo:hover,
+.experience__button__demo:hover {
+  cursor: pointer;
 }
 
 .experience__button__repo {
@@ -298,6 +332,7 @@ label {
   font-family: "Raleway";
   padding: 1rem 0 0 0.75rem;
   border-radius: 4px;
+  resize: none;
 }
 
 .formcontato__botao {
@@ -367,6 +402,36 @@ label {
     justify-content: space-around;
   }
 
+  .academic__courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 704px;
+  }
+
+  .academic__courses__box {
+    width: 224px;
+  }
+
+  .academic__courses__list {
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .academic__courses__item__img {
+    height: 118px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .academic__courses__item__img img {
+    height: 60%;
+  }
+
   /* experiencia  */
   .experience__description {
     display: flex;
@@ -377,6 +442,11 @@ label {
   .experience__button__demo,
   .experience__button__repo {
     width: 10rem;
+  }
+
+  /* contato */
+  .formcontato__textarea {
+    resize: none;
   }
 }
 
